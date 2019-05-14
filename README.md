@@ -6,12 +6,13 @@ App for macOS, database Cloud Firestore Firebase
 </td></tr></table>
 
 
-ContactsCloudFB: is a demo app, 
+ContactsCloudFB: is a demo app, it contains basic CRUD operations through which you can create a new contact, read it from the database, edit it or update it and delete it.
+The database used is Cloud Firestore FIREBASE, which is a NoSQL database hosted in the cloud, the data is stored in documents and collections.
 
 ## Feature
 - Swift 5
 - Xcode 10.2.1
-- Firebase  Cloud Firestore
+- Firebase Cloud Firestore
 - iPhone 8
 - CocoaPods
 
