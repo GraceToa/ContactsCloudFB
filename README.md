@@ -20,9 +20,14 @@ ContactsCloudFB: is a demo app,
         <th colspan="3">iPhone 8 12-2 </th> 
     </tr>
     <tr>
-        <td><img src="https://user-images.githubusercontent.com/10947013/57152104-d07e2b00-6dd2-11e9-90b0-2255f24a52f5.png"             width="250" alt="login"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/57152069-bba19780-6dd2-11e9-87ca-1292e252e758.png"             width="250" alt="register"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/57151966-7da47380-6dd2-11e9-92b0-aee2edb1fb70.png"              width="250" alt="profile"></td>      
+        <td><img src="https://user-images.githubusercontent.com/10947013/57710566-7ea89100-766d-11e9-9105-10a36af20b03.png"             width="250" alt="login"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/57710662-a861b800-766d-11e9-8335-a5c39aaf10ed.png"             width="250" alt="register"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/57710718-bdd6e200-766d-11e9-8ec5-4d66d808ac5e.png"              width="250" alt="profile"></td>      
+    </tr>    
+ <tr>
+        <td><img src="https://user-images.githubusercontent.com/10947013/57710808-e9f26300-766d-11e9-9427-1e83982df9b2.png"             width="250" alt="login"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/57710839-fecef680-766d-11e9-91af-e373cb3202d3.png"             width="250" alt="register"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/57710895-10b09980-766e-11e9-9c5d-8ba33ec6a651.png"              width="250" alt="profile"></td>      
     </tr>
 </table>
 
