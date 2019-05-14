@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>117690418102-m81rohm9p58sfadhgs6gc5omn6m66ncv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.117690418102-m81rohm9p58sfadhgs6gc5omn6m66ncv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC6Oxm5usC2lnyPI_GP5UzZlAwd92TCGVI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>117690418102</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.graceToa.CrudCloudFirestore</string>
+	<key>PROJECT_ID</key>
+	<string>crudcloudfirestore</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crudcloudfirestore.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:117690418102:ios:2cc07ac55b3d5fd2</string>
+	<key>DATABASE_URL</key>
+	<string>https://crudcloudfirestore.firebaseio.com</string>
+</dict>
+</plist>
