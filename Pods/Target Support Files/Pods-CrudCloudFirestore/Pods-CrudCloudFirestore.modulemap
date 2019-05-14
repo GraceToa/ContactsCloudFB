@@ -1,0 +1,6 @@
+framework module Pods_CrudCloudFirestore {
+  umbrella header "Pods-CrudCloudFirestore-umbrella.h"
+
+  export *
+  module * { export * }
+}

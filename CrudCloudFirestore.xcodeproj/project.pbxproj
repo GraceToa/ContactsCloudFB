@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3133CB69235B0FE46609A5B /* Pods_CrudCloudFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49D7D3B9F0E008D03432571 /* Pods_CrudCloudFirestore.framework */; };
+		C001CBBF22804076007398D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C001CBBE22804076007398D8 /* GoogleService-Info.plist */; };
+		C001CBC1228055B0007398D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C001CBC0228055B0007398D8 /* User.swift */; };
+		C001CBC522806EC9007398D8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C001CBC422806EC9007398D8 /* DetailViewController.swift */; };
 		C04DFA70227CC7BA00C20D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DFA6F227CC7BA00C20D9A /* AppDelegate.swift */; };
 		C04DFA72227CC7BA00C20D9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DFA71227CC7BA00C20D9A /* ViewController.swift */; };
 		C04DFA75227CC7BA00C20D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04DFA73227CC7BA00C20D9A /* Main.storyboard */; };
 		C04DFA77227CC7BC00C20D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04DFA76227CC7BC00C20D9A /* Assets.xcassets */; };
 		C04DFA7A227CC7BC00C20D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04DFA78227CC7BC00C20D9A /* LaunchScreen.storyboard */; };
+		C0F8FE4F22816DE500B0BA9E /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F8FE4E22816DE500B0BA9E /* UserTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53DD70C857073AFEA703E47C /* Pods-CrudCloudFirestore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudCloudFirestore.release.xcconfig"; path = "Target Support Files/Pods-CrudCloudFirestore/Pods-CrudCloudFirestore.release.xcconfig"; sourceTree = "<group>"; };
+		6D7C255FDB267A1EC21FB8BD /* Pods-CrudCloudFirestore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudCloudFirestore.debug.xcconfig"; path = "Target Support Files/Pods-CrudCloudFirestore/Pods-CrudCloudFirestore.debug.xcconfig"; sourceTree = "<group>"; };
+		A49D7D3B9F0E008D03432571 /* Pods_CrudCloudFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrudCloudFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C001CBBE22804076007398D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C001CBC0228055B0007398D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C001CBC422806EC9007398D8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C04DFA6C227CC7BA00C20D9A /* CrudCloudFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrudCloudFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04DFA6F227CC7BA00C20D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C04DFA71227CC7BA00C20D9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,7 @@
 		C04DFA76227CC7BC00C20D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04DFA79227CC7BC00C20D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04DFA7B227CC7BC00C20D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F8FE4E22816DE500B0BA9E /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3133CB69235B0FE46609A5B /* Pods_CrudCloudFirestore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		232953BBF560B6C0BD7F47C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D7C255FDB267A1EC21FB8BD /* Pods-CrudCloudFirestore.debug.xcconfig */,
+				53DD70C857073AFEA703E47C /* Pods-CrudCloudFirestore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D082D21DEF6C609001D44A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A49D7D3B9F0E008D03432571 /* Pods_CrudCloudFirestore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C04DFA63227CC7BA00C20D9A = {
 			isa = PBXGroup;
 			children = (
 				C04DFA6E227CC7BA00C20D9A /* CrudCloudFirestore */,
 				C04DFA6D227CC7BA00C20D9A /* Products */,
+				232953BBF560B6C0BD7F47C3 /* Pods */,
+				3D082D21DEF6C609001D44A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +86,12 @@
 		C04DFA6E227CC7BA00C20D9A /* CrudCloudFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				C001CBBE22804076007398D8 /* GoogleService-Info.plist */,
 				C04DFA6F227CC7BA00C20D9A /* AppDelegate.swift */,
 				C04DFA71227CC7BA00C20D9A /* ViewController.swift */,
+				C001CBC0228055B0007398D8 /* User.swift */,
+				C001CBC422806EC9007398D8 /* DetailViewController.swift */,
+				C0F8FE4E22816DE500B0BA9E /* UserTableViewCell.swift */,
 				C04DFA73227CC7BA00C20D9A /* Main.storyboard */,
 				C04DFA76227CC7BC00C20D9A /* Assets.xcassets */,
 				C04DFA78227CC7BC00C20D9A /* LaunchScreen.storyboard */,
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C04DFA7E227CC7BC00C20D9A /* Build configuration list for PBXNativeTarget "CrudCloudFirestore" */;
 			buildPhases = (
+				5FA920DCC89BFE56F0825415 /* [CP] Check Pods Manifest.lock */,
 				C04DFA68227CC7BA00C20D9A /* Sources */,
 				C04DFA69227CC7BA00C20D9A /* Frameworks */,
 				C04DFA6A227CC7BA00C20D9A /* Resources */,
+				BE47C9A9A6BBF8F6841A75A6 /* [CP] Embed Pods Frameworks */,
+				7DCDBE5B17A8D6DBCF90DC50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04DFA7A227CC7BC00C20D9A /* LaunchScreen.storyboard in Resources */,
+				C001CBBF22804076007398D8 /* GoogleService-Info.plist in Resources */,
 				C04DFA77227CC7BC00C20D9A /* Assets.xcassets in Resources */,
 				C04DFA75227CC7BA00C20D9A /* Main.storyboard in Resources */,
 			);
@@ -130,13 +170,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FA920DCC89BFE56F0825415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrudCloudFirestore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DCDBE5B17A8D6DBCF90DC50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrudCloudFirestore/Pods-CrudCloudFirestore-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrudCloudFirestore/Pods-CrudCloudFirestore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE47C9A9A6BBF8F6841A75A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrudCloudFirestore/Pods-CrudCloudFirestore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrudCloudFirestore/Pods-CrudCloudFirestore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C04DFA68227CC7BA00C20D9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C04DFA72227CC7BA00C20D9A /* ViewController.swift in Sources */,
+				C001CBC522806EC9007398D8 /* DetailViewController.swift in Sources */,
 				C04DFA70227CC7BA00C20D9A /* AppDelegate.swift in Sources */,
+				C0F8FE4F22816DE500B0BA9E /* UserTableViewCell.swift in Sources */,
+				C001CBC1228055B0007398D8 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +406,11 @@
 		};
 		C04DFA7F227CC7BC00C20D9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7C255FDB267A1EC21FB8BD /* Pods-CrudCloudFirestore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6499BW5722;
 				INFOPLIST_FILE = CrudCloudFirestore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +425,11 @@
 		};
 		C04DFA80227CC7BC00C20D9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53DD70C857073AFEA703E47C /* Pods-CrudCloudFirestore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6499BW5722;
 				INFOPLIST_FILE = CrudCloudFirestore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
